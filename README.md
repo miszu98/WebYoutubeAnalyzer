@@ -4,8 +4,8 @@ Draws a chart with the titles and views of the last few videos on youtube channe
 ## Assumptions
 ### The assumptions were to create a web application that would allow:
 
-1. [Take input from user in the form of a link](#page-with-graph)
-2. [Drawing a chart](#home-page)
+1. [Take input from user in the form of a link](#home-page)
+2. [Drawing a chart](#page-with-graph)
 
 
 ## Technologies
