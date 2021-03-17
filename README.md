@@ -21,12 +21,12 @@ Draws a chart with the titles and views of the last few videos on youtube channe
 ### Home page
 #### Here user can paste link of channel from youtube and press enter after while we will se generated graph on the next site
 <p align="left"> 
-  <img src="https://i.imgur.com/xZZRKJu.png"  width="700px">
+  <img src="https://i.imgur.com/xZZRKJu.png"  width="800px">
 </p>
 
 ### Page with graph
 <p align="left"> 
-  <img src="https://i.imgur.com/wKHCVDk.png"  width="300px">
+  <img src="https://i.imgur.com/wKHCVDk.png"  width="800px">
 </p>
 
 
