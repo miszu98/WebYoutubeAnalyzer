@@ -1,10 +1,11 @@
-# WebYoutubeAnalyzer
+# Web Youtube Analyzer
 Draws a chart with the titles and views of the last few videos on youtube channel
 
 ## Assumptions
 ### The assumptions were to create a web application that would allow:
-1. [Drawing a chart](#home-page)
-2. [Take input from user in the form of a link](#page-with-graph)
+
+1. [Take input from user in the form of a link](#page-with-graph)
+2. [Drawing a chart](#home-page)
 
 
 ## Technologies
