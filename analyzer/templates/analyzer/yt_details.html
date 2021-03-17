@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Analyzer - details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../../static/analyzer/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+
+</head>
+<body>
+<a style="text-decoration: none" href="{% url "render_page" %}"><h1>Youtube Analyzer</h1></a>
+<center><div id="generated_plot" style="background-color: white; margin-top: 30px; border: 1px solid #ffffff; border-radius: 10%; width: 1050px; height: 800px">
+    <img style="width: 830px; height: 790px" src="data:image/png;base64, {{ plot|safe }}">
+</div></center>
+
+
+</body>
+</html>

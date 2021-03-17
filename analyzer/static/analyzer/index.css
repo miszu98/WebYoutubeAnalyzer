@@ -1,0 +1,86 @@
+/*body {*/
+/*    height: 100%;*/
+/*    background: linear-gradient(#e66465, #9198e5);*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;*/
+/*}*/
+
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+#input_form {
+    margin-top: 5%;
+}
+
+#nameOfApp {
+    color: white;
+    margin-top: 350px;
+    font-family: 'Quicksand', sans-serif;
+    animation: slide .7s ease-in;
+}
+
+#input_link {
+    animation: slide2 .7s ease-in;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#generated_plot {
+    animation: slideFromDown .7s ease-in;
+}
+
+@keyframes slideFromDown {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: white;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    animation: slide .7s ease-in;
+    text-align: center;
+}

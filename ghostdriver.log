@@ -1,0 +1,20 @@
+[INFO  - 2021-03-17T13:17:47.565Z] GhostDriver - Main - running on port 55532
+[INFO  - 2021-03-17T13:17:49.771Z] Session [2c0e6c80-8723-11eb-9092-cf090c8d5cee] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-03-17T13:17:49.771Z] Session [2c0e6c80-8723-11eb-9092-cf090c8d5cee] - page.customHeaders:  - {}
+[INFO  - 2021-03-17T13:17:49.786Z] Session [2c0e6c80-8723-11eb-9092-cf090c8d5cee] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-03-17T13:17:49.786Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2c0e6c80-8723-11eb-9092-cf090c8d5cee
+[ERROR - 2021-03-17T13:17:50.079Z] Session [2c0e6c80-8723-11eb-9092-cf090c8d5cee] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-03-17T13:17:50.080Z] Session [2c0e6c80-8723-11eb-9092-cf090c8d5cee] - page.onError - stack:
+  (anonymous function) (https://www.youtube.com/s/desktop/e9152424/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js:129)
+  (anonymous function) (https://www.youtube.com/s/desktop/e9152424/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js:129)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-03-17T13:17:50.583Z] Session [2c0e6c80-8723-11eb-9092-cf090c8d5cee] - page.onError - msg: TypeError: undefined is not an object (evaluating 'window.customElements.polyfillWrapFlushCallback')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-03-17T13:17:50.583Z] Session [2c0e6c80-8723-11eb-9092-cf090c8d5cee] - page.onError - stack:
+  (anonymous function) (https://www.youtube.com/s/desktop/e9152424/jsbin/desktop_polymer_inlined_html_polymer_flags_legacy_browsers.vflset/desktop_polymer_inlined_html_polymer_flags_legacy_browsers.js:323)
+
+  phantomjs://platform/console++.js:263 in error
